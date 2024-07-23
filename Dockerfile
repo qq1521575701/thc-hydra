@@ -73,5 +73,3 @@ RUN set -x \
 
 # Use an unprivileged user
 USER 10001:10001
-
-ENTRYPOINT ["hydra"]
