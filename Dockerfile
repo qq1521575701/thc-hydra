@@ -70,6 +70,3 @@ RUN set -x \
         && rm -Rf /tmp/seclists \
         && ls -la /opt/passwords /opt/usernames \
     ;fi
-
-# Use an unprivileged user
-USER 10001:10001
